@@ -1,0 +1,10 @@
+{
+    "id": 5,
+    "name": "Louis Armstrong",
+    "birthDate": "1901-08-04",
+    "nationality": "American",
+    "instrument": "Trumpet",
+    "genre": "Dixieland",
+    "image": "/images/louis-armstrong.jpg",
+    "albums": [14, 15, 16, 17]
+  }

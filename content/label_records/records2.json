@@ -1,0 +1,8 @@
+{
+    "id": 2,
+    "name": "Atlantic Records",
+    "location": "New York City, New York, USA",
+    "founded": "1947",
+    "albums": [3, 5],
+    "image": "/images/atlantic-records.jpg"
+  }

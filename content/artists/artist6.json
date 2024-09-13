@@ -1,0 +1,10 @@
+{
+    "id": 7,
+    "name": "Bill Evans",
+    "birthDate": "1929-08-16",
+    "nationality": "American",
+    "instrument": "Piano",
+    "genre": "Cool Jazz",
+    "image": "/images/bill-evans.jpg",
+    "albums": [22, 23, 24, 25]
+  }

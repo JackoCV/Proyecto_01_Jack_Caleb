@@ -1,0 +1,51 @@
+[
+  {
+    "name": "albums",
+    "path": "/albums",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\albums\\\\index.vue",
+    "chunkName": "pages/albums/index",
+    "_name": "_58ea6720"
+  },
+  {
+    "name": "artists",
+    "path": "/artists",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\artists\\\\index.vue",
+    "chunkName": "pages/artists/index",
+    "_name": "_ad46ebf8"
+  },
+  {
+    "name": "label_records",
+    "path": "/label_records",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\label_records\\\\index.vue",
+    "chunkName": "pages/label_records/index",
+    "_name": "_34e29eb9"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_42512304"
+  },
+  {
+    "name": "albums-id",
+    "path": "/albums/:id",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\albums\\\\_id.vue",
+    "chunkName": "pages/albums/_id",
+    "_name": "_d7b09cf0"
+  },
+  {
+    "name": "artists-id",
+    "path": "/artists/:id",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\artists\\\\_id.vue",
+    "chunkName": "pages/artists/_id",
+    "_name": "_37cd3d6c"
+  },
+  {
+    "name": "label_records-id",
+    "path": "/label_records/:id",
+    "component": "C:\\\\Users\\\\jacks\\\\Downloads\\\\Tutoriales-Arquitectura-main\\\\Tutorial_06\\\\pages\\\\label_records\\\\_id.vue",
+    "chunkName": "pages/label_records/_id",
+    "_name": "_686a093e"
+  }
+]

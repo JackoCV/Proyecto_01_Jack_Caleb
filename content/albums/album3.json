@@ -1,0 +1,9 @@
+{
+    "id": 4,
+    "title": "Giant Steps",
+    "artist": "John Coltrane",
+    "release_year": 1960,
+    "songs": ["Giant Steps", "Cousin Mary", "Countdown"],
+    "image": "/images/giant-steps.jpg"
+  }
+  

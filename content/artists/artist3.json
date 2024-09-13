@@ -1,0 +1,10 @@
+{
+    "id": 4,
+    "name": "Duke Ellington",
+    "birthDate": "1899-04-29",
+    "nationality": "American",
+    "instrument": "Piano",
+    "genre": "Swing",
+    "image": "/images/duke-ellington.jpg",
+    "albums": [10, 11, 12, 13]
+  }

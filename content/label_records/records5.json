@@ -1,0 +1,8 @@
+{
+    "id": 5,
+    "name": "Mercury Records",
+    "location": "Chicago, Illinois, USA",
+    "founded": "1945",
+    "albums": [7],
+    "image": "/images/mercury-records.jpg"
+  }

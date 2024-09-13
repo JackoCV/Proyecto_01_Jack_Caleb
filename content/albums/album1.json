@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "release_year": 1957,
+    "songs": ["Blue Train", "Moment's Notice", "Locomotion"],
+    "image": "/images/blue-train.jpg"
+  }
+  

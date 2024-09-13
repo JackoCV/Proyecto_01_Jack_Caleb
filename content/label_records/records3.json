@@ -1,0 +1,8 @@
+{
+    "id": 3,
+    "name": "Blue Note",
+    "location": "New York City, New York, USA",
+    "founded": "1939",
+    "albums": [4],
+    "image": "/images/blue-note.jpg"
+  }

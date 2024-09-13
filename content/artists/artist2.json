@@ -1,0 +1,10 @@
+{
+    "id": 3,
+    "name": "Charlie Parker",
+    "birthDate": "1920-08-29",
+    "nationality": "American",
+    "instrument": "Saxophone",
+    "genre": "Bebop",
+    "image": "/images/charlie-parker.jpg",
+    "albums": [6, 7, 8, 9]
+  }

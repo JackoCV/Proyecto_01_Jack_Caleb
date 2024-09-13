@@ -1,0 +1,8 @@
+{
+    "id": 7,
+    "name": "Verve Records",
+    "location": "Los Angeles, California, USA",
+    "founded": "1956",
+    "albums": [9, 15],
+    "image": "/images/verve-records.jpg"
+  }

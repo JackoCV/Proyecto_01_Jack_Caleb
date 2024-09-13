@@ -1,0 +1,10 @@
+{
+    "id": 6,
+    "name": "Thelonious Monk",
+    "birthDate": "1917-10-10",
+    "nationality": "American",
+    "instrument": "Piano",
+    "genre": "Bebop",
+    "image": "/images/thelonious-monk.jpg",
+    "albums": [18, 19, 20, 21]
+  }
