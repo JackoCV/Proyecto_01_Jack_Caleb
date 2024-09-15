@@ -1,0 +1,60 @@
+# Dependencias de Node
+node_modules/
+
+# Directorios de compilación y salida
+.nuxt/
+.dist/
+.build/
+.output/
+coverage/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Archivos de bloqueo de paquetes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Directorios de editores/IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de pruebas
+jest-html-reporters-*.html
+reports/
+
+# Directorios de cache
+.cache/
+.history/
+.temp/
+
+# Archivos de configuración personales
+*.local
+
+# Otros
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de Tailwind CSS generados
+tailwind.log
+
+# Directorios o archivos específicos de tu proyecto (añade aquí los que necesites)

@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _58ea6720 = () => interopDefault(import('..\\pages\\albums\\index.vue' /* webpackChunkName: "pages/albums/index" */))
-const _ad46ebf8 = () => interopDefault(import('..\\pages\\artists\\index.vue' /* webpackChunkName: "pages/artists/index" */))
-const _34e29eb9 = () => interopDefault(import('..\\pages\\label_records\\index.vue' /* webpackChunkName: "pages/label_records/index" */))
-const _42512304 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _d7b09cf0 = () => interopDefault(import('..\\pages\\albums\\_id.vue' /* webpackChunkName: "pages/albums/_id" */))
-const _37cd3d6c = () => interopDefault(import('..\\pages\\artists\\_id.vue' /* webpackChunkName: "pages/artists/_id" */))
-const _686a093e = () => interopDefault(import('..\\pages\\label_records\\_id.vue' /* webpackChunkName: "pages/label_records/_id" */))
+const _865b4b10 = () => interopDefault(import('..\\pages\\albums\\index.vue' /* webpackChunkName: "pages/albums/index" */))
+const _7b19fca8 = () => interopDefault(import('..\\pages\\artists\\index.vue' /* webpackChunkName: "pages/artists/index" */))
+const _621ab861 = () => interopDefault(import('..\\pages\\label_records\\index.vue' /* webpackChunkName: "pages/label_records/index" */))
+const _f2a42348 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _38b6ca40 = () => interopDefault(import('..\\pages\\albums\\_id.vue' /* webpackChunkName: "pages/albums/_id" */))
+const _502501d8 = () => interopDefault(import('..\\pages\\artists\\_id.vue' /* webpackChunkName: "pages/artists/_id" */))
+const _000d5f09 = () => interopDefault(import('..\\pages\\label_records\\_id.vue' /* webpackChunkName: "pages/label_records/_id" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/albums",
-    component: _58ea6720,
+    component: _865b4b10,
     name: "albums"
   }, {
     path: "/artists",
-    component: _ad46ebf8,
+    component: _7b19fca8,
     name: "artists"
   }, {
     path: "/label_records",
-    component: _34e29eb9,
+    component: _621ab861,
     name: "label_records"
   }, {
     path: "/",
-    component: _42512304,
+    component: _f2a42348,
     name: "index"
   }, {
     path: "/albums/:id",
-    component: _d7b09cf0,
+    component: _38b6ca40,
     name: "albums-id"
   }, {
     path: "/artists/:id",
-    component: _37cd3d6c,
+    component: _502501d8,
     name: "artists-id"
   }, {
     path: "/label_records/:id",
-    component: _686a093e,
+    component: _000d5f09,
     name: "label_records-id"
   }],
 

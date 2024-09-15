@@ -1,7 +1,7 @@
 <template>
-  <div class="row"  style="margin-top: 15px">
-    <button disabled="disabled" class="twelve columns button-primary">
-      Copyright (c) 2021 - Jazz Catalog
+  <div class="mt-[15px]">
+    <button disabled class="w-full bg-blue-500 text-white py-2 px-4 rounded">
+      © 2021 - Jazz Catalog
     </button>
   </div>
 </template>

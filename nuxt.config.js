@@ -1,6 +1,7 @@
 export default {
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss'
   ],
   generate: {
     async routes() {
@@ -20,5 +21,12 @@ export default {
 
       return [...artistRoutes, ...albumRoutes, ...labelRoutes];
     }
-  }
+  },
+  components: [
+    '~/components',
+    {
+      path: '~/components/global/',
+      global: true,
+    },
+  ],
 }
