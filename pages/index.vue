@@ -5,7 +5,7 @@
 
     <!-- Contenido principal -->
     <main class="flex-grow container mx-auto px-4 py-6">
-      <h1 class="text-3xl font-bold mb-6 text-center">Página Principal del Catálogo de Jazz</h1>
+      <h1 class="text-3xl font-bold mb-6 text-center">Catálogo Mejor  Música Jazz</h1>
 
       <!-- Componente de Pestañas -->
       <Tabs :tabs="[{ name: 'Artistas' }, { name: 'Álbumes' }, { name: 'Discográficas' }]">

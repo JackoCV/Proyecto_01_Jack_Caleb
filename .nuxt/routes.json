@@ -2,50 +2,43 @@
   {
     "name": "albums",
     "path": "/albums",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\albums\\\\index.vue",
-    "chunkName": "pages/albums/index",
-    "_name": "_865b4b10"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\albums\\\\index.vue",
+    "chunkName": "pages/albums/index"
   },
   {
     "name": "artists",
     "path": "/artists",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\artists\\\\index.vue",
-    "chunkName": "pages/artists/index",
-    "_name": "_7b19fca8"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\artists\\\\index.vue",
+    "chunkName": "pages/artists/index"
   },
   {
     "name": "label_records",
     "path": "/label_records",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\label_records\\\\index.vue",
-    "chunkName": "pages/label_records/index",
-    "_name": "_621ab861"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\label_records\\\\index.vue",
+    "chunkName": "pages/label_records/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_f2a42348"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   },
   {
     "name": "albums-id",
     "path": "/albums/:id",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\albums\\\\_id.vue",
-    "chunkName": "pages/albums/_id",
-    "_name": "_38b6ca40"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\albums\\\\_id.vue",
+    "chunkName": "pages/albums/_id"
   },
   {
     "name": "artists-id",
     "path": "/artists/:id",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\artists\\\\_id.vue",
-    "chunkName": "pages/artists/_id",
-    "_name": "_502501d8"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\artists\\\\_id.vue",
+    "chunkName": "pages/artists/_id"
   },
   {
     "name": "label_records-id",
     "path": "/label_records/:id",
-    "component": "D:\\\\M4N0\\\\Desktop\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\label_records\\\\_id.vue",
-    "chunkName": "pages/label_records/_id",
-    "_name": "_000d5f09"
+    "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\label_records\\\\_id.vue",
+    "chunkName": "pages/label_records/_id"
   }
 ]
