@@ -1,0 +1,8 @@
+{
+  "id": 25,
+  "title": "Groovin' High",
+  "artist": "Dizzy Gillespie",
+  "release_year": 1955,
+  "songs": ["Groovin' High", "All the Things You Are", "Hot House"],
+  "image": "/images/groovin-high.jpg"
+}

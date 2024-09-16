@@ -1,0 +1,8 @@
+{
+  "id": 16,
+  "title": "Kind of Blue",
+  "artist": "Miles Davis",
+  "release_year": 1959,
+  "songs": ["So What", "Freddie Freeloader", "Blue in Green"],
+  "image": "/images/kind-of-blue.jpg"
+}
