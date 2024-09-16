@@ -1,0 +1,23 @@
+{
+  "AlbumCard": {
+    "description": "Auto imported from components/global/AlbumCard.vue"
+  },
+  "ArtistCard": {
+    "description": "Auto imported from components/global/ArtistCard.vue"
+  },
+  "FooterView": {
+    "description": "Auto imported from components/global/FooterView.vue"
+  },
+  "HeaderView": {
+    "description": "Auto imported from components/global/HeaderView.vue"
+  },
+  "LabelCard": {
+    "description": "Auto imported from components/global/LabelCard.vue"
+  },
+  "SongCard": {
+    "description": "Auto imported from components/global/SongCard.vue"
+  },
+  "Tabs": {
+    "description": "Auto imported from components/global/Tabs.vue"
+  }
+}
