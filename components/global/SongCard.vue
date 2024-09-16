@@ -1,9 +1,7 @@
 <template>
     <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300">
       <div class="flex items-center">
-        <!-- Icono o imagen opcional para la canción -->
         <div class="w-10 h-10 bg-blue-500 text-white flex-shrink-0 rounded-full flex items-center justify-center mr-4">
-          <!-- Puedes poner un ícono aquí, por ejemplo, un símbolo de nota musical -->
           <svg
             class="w-6 h-6"
             fill="currentColor"
@@ -14,11 +12,8 @@
             />
           </svg>
         </div>
-        <!-- Nombre de la canción -->
         <div>
           <h3 class="text-lg font-semibold">{{ song }}</h3>
-          <!-- Información adicional, como duración o número de pista -->
-          <!-- Si tienes más detalles, puedes agregarlos aquí -->
         </div>
       </div>
     </div>

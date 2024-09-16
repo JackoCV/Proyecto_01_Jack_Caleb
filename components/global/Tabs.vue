@@ -1,6 +1,5 @@
 <template>
     <div>
-      <!-- Encabezados de las pestañas -->
       <div class="flex border-b border-gray-200">
         <button
           v-for="(tab, index) in tabs"
@@ -13,7 +12,6 @@
         </button>
       </div>
   
-      <!-- Contenido de las pestañas con transición -->
         <div class="mt-4">
             <transition name="fade" mode="out-in">
                 <div :key="activeTab">
@@ -53,6 +51,5 @@
   </script>
   
   <style scoped>
-  /* Puedes añadir estilos adicionales aquí si lo deseas */
   </style>
   

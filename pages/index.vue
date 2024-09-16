@@ -1,15 +1,11 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <!-- Header -->
     <HeaderView />
 
-    <!-- Contenido principal -->
     <main class="flex-grow container mx-auto px-4 py-6">
       <h1 class="text-3xl font-bold mb-6 text-center">Catálogo Mejor  Música Jazz</h1>
 
-      <!-- Componente de Pestañas -->
       <Tabs :tabs="[{ name: 'Artistas' }, { name: 'Álbumes' }, { name: 'Discográficas' }]">
-        <!-- Contenido de la pestaña "Artistas" -->
         <template #tab-0>
           <section>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -18,7 +14,6 @@
           </section>
         </template>
 
-        <!-- Contenido de la pestaña "Álbumes" -->
         <template #tab-1>
           <section>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -27,7 +22,6 @@
           </section>
         </template>
 
-        <!-- Contenido de la pestaña "Discográficas" -->
         <template #tab-2>
           <section>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -38,7 +32,6 @@
       </Tabs>
     </main>
 
-    <!-- Footer -->
     <FooterView />
   </div>
 </template>
@@ -61,7 +54,6 @@ export default {
     Tabs,
   },
   async asyncData({ $content }) {
-    // Obtener la lista de artistas, álbumes y discográficas
     const artists = await $content('artists').fetch();
     const albums = await $content('albums').fetch();
     const labels = await $content('label_records').fetch();
