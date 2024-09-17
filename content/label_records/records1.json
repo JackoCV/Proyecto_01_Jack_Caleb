@@ -3,6 +3,7 @@
   "name": "Impulse!",
   "location": "Los Angeles, California, USA",
   "founded": "1960",
-  "albums": [1],
+  "albums": [3],
+  "artists": [1],
   "image": "/images/impulse.jpg"
 }

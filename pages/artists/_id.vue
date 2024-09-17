@@ -23,6 +23,19 @@
             <p class="text-gray-700 mb-2">
               <strong>Género:</strong> {{ artist.genre }}
             </p>
+            <!-- Mostrar label_records -->
+            <p v-if="artist.label_records && artist.label_records.length" class="mt-4">
+  <strong>Sellos Discográficos:</strong>
+  <ul class="list-disc pl-5">
+    <li v-for="(label, index) in label_records" :key="index">
+      <nuxt-link :to="`/label_records/${label.id}`" class="text-blue-500 hover:underline">
+        {{ label.name }} ({{ label.location }})
+      </nuxt-link>
+    </li>
+  </ul>
+</p>
+
+            <p v-else class="text-gray-600 mt-4">No hay sellos discográficos disponibles.</p>
           </div>
         </div>
 
@@ -79,29 +92,37 @@ export default {
   async asyncData({ $content, params }) {
     const artistId = parseInt(params.id);
 
+    // Obtener datos del artista
     const artistData = await $content('artists')
       .where({ id: artistId })
       .fetch();
 
     if (!artistData || artistData.length === 0) {
-      return { artist: null, artistAlbums: [], artistSongs: [] };
+      return { artist: null, artistAlbums: [], artistSongs: [], label_records: [] };
     }
 
     const artist = artistData[0];
 
+    // Obtener todos los álbumes
     const allAlbums = await $content('albums').fetch();
     const artistAlbums = allAlbums.filter((album) =>
       artist.albums.includes(album.id)
     );
 
+    // Obtener canciones de los álbumes
     let artistSongs = [];
     artistAlbums.forEach((album) => {
       artistSongs = artistSongs.concat(album.songs);
     });
-
     artistSongs = [...new Set(artistSongs)];
 
-    return { artist, artistAlbums, artistSongs };
+    // Obtener todos los sellos discográficos
+    const allRecords = await $content('label_records').fetch();
+    const artistRecords = allRecords.filter((record) =>
+      artist.label_records.includes(record.id)
+    );
+
+    return { artist, artistAlbums, artistSongs, label_records: artistRecords };
   },
 };
 </script>

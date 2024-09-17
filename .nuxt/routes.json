@@ -3,49 +3,42 @@
     "name": "albums",
     "path": "/albums",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\albums\\\\index.vue",
-    "chunkName": "pages/albums/index",
-    "_name": "_102c36b6"
+    "chunkName": "pages/albums/index"
   },
   {
     "name": "artists",
     "path": "/artists",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\artists\\\\index.vue",
-    "chunkName": "pages/artists/index",
-    "_name": "_2b6685c2"
+    "chunkName": "pages/artists/index"
   },
   {
     "name": "label_records",
     "path": "/label_records",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\label_records\\\\index.vue",
-    "chunkName": "pages/label_records/index",
-    "_name": "_73e8d194"
+    "chunkName": "pages/label_records/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_6c9614ee"
+    "chunkName": "pages/index"
   },
   {
     "name": "albums-id",
     "path": "/albums/:id",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\albums\\\\_id.vue",
-    "chunkName": "pages/albums/_id",
-    "_name": "_1d82cc4d"
+    "chunkName": "pages/albums/_id"
   },
   {
     "name": "artists-id",
     "path": "/artists/:id",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\artists\\\\_id.vue",
-    "chunkName": "pages/artists/_id",
-    "_name": "_4c550972"
+    "chunkName": "pages/artists/_id"
   },
   {
     "name": "label_records-id",
     "path": "/label_records/:id",
     "component": "C:\\\\Users\\\\jacks\\\\OneDrive\\\\Documentos\\\\Arquitectura de Informacion\\\\Proyecto_01_Jack_Caleb\\\\pages\\\\label_records\\\\_id.vue",
-    "chunkName": "pages/label_records/_id",
-    "_name": "_3633ae08"
+    "chunkName": "pages/label_records/_id"
   }
 ]

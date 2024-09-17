@@ -3,6 +3,7 @@
     "name": "Atlantic Records",
     "location": "New York City, New York, USA",
     "founded": "1947",
-    "albums": [3, 5],
+    "albums": [4,27],
+    "artists": [1],
     "image": "/images/atlantic-records.jpg"
   }

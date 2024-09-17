@@ -3,6 +3,7 @@
     "name": "Blue Note",
     "location": "New York City, New York, USA",
     "founded": "1939",
-    "albums": [4],
+    "albums": [1],
+    "artists": [1],
     "image": "/images/blue-note.jpg"
   }
