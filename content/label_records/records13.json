@@ -3,6 +3,7 @@
     "name": "Riverside Records",
     "location": "New York City, New York, USA",
     "founded": "1953",
-    "albums": [19, 24],
+    "albums": [19,21, 23, 24],
+    "artists": [6,7],
     "image": "/images/riverside-records.jpg"
   }

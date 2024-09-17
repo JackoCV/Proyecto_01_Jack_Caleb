@@ -6,5 +6,6 @@
     "instrument": "Saxophone",
     "genre": "Bebop",
     "image": "/images/charlie-parker.jpg",
-    "albums": [6, 7, 24]
+    "albums": [6, 7, 24],
+    "label_records": [7,11]
   }

@@ -38,6 +38,22 @@
           </div>
           <p v-else class="text-gray-600">No hay álbumes disponibles.</p>
         </div>
+
+        <div class="mt-8">
+          <h2 class="text-2xl font-semibold mb-4">Artistas de la discográfica</h2>
+          <div v-if="labelArtists && labelArtists.length">
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+            >
+              <ArtistCard
+                v-for="artist in labelArtists"
+                :key="artist.id"
+                :artist="artist"
+              />
+            </div>
+          </div>
+          <p v-else class="text-gray-600">No hay artistas disponibles.</p>
+        </div>
       </div>
       <div v-else>
         <p class="text-center text-gray-600">Discográfica no encontrada.</p>
@@ -52,12 +68,14 @@
 import HeaderView from '@/components/global/HeaderView.vue';
 import FooterView from '@/components/global/FooterView.vue';
 import AlbumCard from '@/components/global/AlbumCard.vue';
+import ArtistCard from '@/components/global/ArtistCard.vue';
 
 export default {
   components: {
     HeaderView,
     FooterView,
     AlbumCard,
+    ArtistCard
   },
   async asyncData({ $content, params }) {
     const labelData = await $content('label_records')
@@ -65,7 +83,7 @@ export default {
       .fetch();
 
     if (!labelData || labelData.length === 0) {
-      return { label: null, labelAlbums: [] };
+      return { label: null, labelAlbums: [], labelArtists: [] };
     }
 
     const label = labelData[0];
@@ -75,7 +93,12 @@ export default {
       label.albums.includes(album.id)
     );
 
-    return { label, labelAlbums };
-  },
+    const allArtists = await $content('artists').fetch();
+    const labelArtists = allArtists.filter((artist) =>
+      label.artists && label.artists.includes(artist.id)
+    );
+
+    return { label, labelAlbums, labelArtists };
+  }
 };
 </script>

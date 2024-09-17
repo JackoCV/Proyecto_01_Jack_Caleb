@@ -6,5 +6,6 @@
     "instrument": "Trumpet",
     "genre": "Dixieland",
     "image": "/images/louis-armstrong.jpg",
-    "albums": [14, 15]
+    "albums": [14, 15],
+    "label_records": [11,8]
   }

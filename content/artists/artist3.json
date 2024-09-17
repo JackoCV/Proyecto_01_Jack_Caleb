@@ -6,5 +6,6 @@
     "instrument": "Piano",
     "genre": "Swing",
     "image": "/images/duke-ellington.jpg",
-    "albums": [10, 11]
+    "albums": [10, 11],
+    "label_records": [8]
   }

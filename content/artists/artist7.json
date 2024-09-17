@@ -6,5 +6,6 @@
     "instrument": "Trumpet",
     "genre": "Jazz",
     "image": "/images/miles-davis.jpg",
-    "albums": [26,16, 17]
+    "albums": [26,16, 17],
+    "label_records": [8]	
   }

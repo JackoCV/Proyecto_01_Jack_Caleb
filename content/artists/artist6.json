@@ -6,5 +6,6 @@
     "instrument": "Piano",
     "genre": "Cool Jazz",
     "image": "/images/bill-evans.jpg",
-    "albums": [22, 23,25]
+    "albums": [22,23,25],
+    "label_records": [13,7]
   }

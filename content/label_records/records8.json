@@ -3,6 +3,7 @@
     "name": "Columbia Records",
     "location": "New York City, New York, USA",
     "founded": "1887",
-    "albums": [10, 22, 23, 25],
+    "albums": [10, 11, 15, 16, 17, 18, 22, 23, 25,26],
+    "artists": [4,5,6,8],
     "image": "/images/columbia-records.jpg"
   }

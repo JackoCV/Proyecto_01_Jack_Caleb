@@ -3,6 +3,7 @@
     "name": "Decca Records",
     "location": "New York City, New York, USA",
     "founded": "1934",
-    "albums": [16],
+    "albums": [7,14],
+    "artists": [3,5],
     "image": "/images/decca-records.png"
   }

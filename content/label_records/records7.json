@@ -3,6 +3,7 @@
     "name": "Verve Records",
     "location": "Los Angeles, California, USA",
     "founded": "1956",
-    "albums": [9, 15],
+    "albums": [6, 24, 25, 15],
+    "artists": [3,7],
     "image": "/images/verve-records.jpg"
   }
