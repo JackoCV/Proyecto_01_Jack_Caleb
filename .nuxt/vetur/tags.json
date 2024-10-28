@@ -19,5 +19,8 @@
   },
   "Tabs": {
     "description": "Auto imported from components/global/Tabs.vue"
+  },
+  "UtterancesComments": {
+    "description": "Auto imported from components/global/UtterancesComments.vue"
   }
 }

@@ -54,6 +54,11 @@
           </div>
           <p v-else class="text-gray-600">No hay artistas disponibles.</p>
         </div>
+
+        <!-- Agregar comentarios de Utterances -->
+        <div class="mt-8">
+          <utterances-comments />
+        </div>
       </div>
       <div v-else>
         <p class="text-center text-gray-600">Discográfica no encontrada.</p>
@@ -69,13 +74,15 @@ import HeaderView from '@/components/global/HeaderView.vue';
 import FooterView from '@/components/global/FooterView.vue';
 import AlbumCard from '@/components/global/AlbumCard.vue';
 import ArtistCard from '@/components/global/ArtistCard.vue';
+import UtterancesComments from '@/components/global/UtterancesComments.vue';
 
 export default {
   components: {
     HeaderView,
     FooterView,
     AlbumCard,
-    ArtistCard
+    ArtistCard,
+    UtterancesComments // Registramos UtterancesComments
   },
   async asyncData({ $content, params }) {
     const labelData = await $content('label_records')

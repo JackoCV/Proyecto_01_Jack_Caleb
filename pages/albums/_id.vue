@@ -33,6 +33,10 @@
             </div>
           </div>
         </div>
+
+        <div class="mt-8">
+          <utterances-comments />
+        </div>
       </div>
       <div v-else>
         <p class="text-center text-gray-600">Álbum o artista no encontrado.</p>
@@ -47,12 +51,14 @@
 import HeaderView from '@/components/global/HeaderView.vue';
 import FooterView from '@/components/global/FooterView.vue';
 import SongCard from '@/components/global/SongCard.vue';
+import UtterancesComments from '@/components/global/UtterancesComments.vue';
 
 export default {
   components: {
     HeaderView,
     FooterView,
     SongCard,
+    UtterancesComments, 
   },
   async asyncData({ $content, params }) {
     const albumData = await $content('albums')

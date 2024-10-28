@@ -13,3 +13,4 @@ You can directly use them in pages and other components without the need to impo
 - `<LabelCard>` | `<label-card>` (components/global/LabelCard.vue)
 - `<SongCard>` | `<song-card>` (components/global/SongCard.vue)
 - `<Tabs>` | `<tabs>` (components/global/Tabs.vue)
+- `<UtterancesComments>` | `<utterances-comments>` (components/global/UtterancesComments.vue)

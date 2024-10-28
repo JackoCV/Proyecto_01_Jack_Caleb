@@ -5,6 +5,7 @@ export { default as HeaderView } from '../..\\components\\global\\HeaderView.vue
 export { default as LabelCard } from '../..\\components\\global\\LabelCard.vue'
 export { default as SongCard } from '../..\\components\\global\\SongCard.vue'
 export { default as Tabs } from '../..\\components\\global\\Tabs.vue'
+export { default as UtterancesComments } from '../..\\components\\global\\UtterancesComments.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -23,18 +23,16 @@
             <p class="text-gray-700 mb-2">
               <strong>Género:</strong> {{ artist.genre }}
             </p>
-            <!-- Mostrar label_records -->
             <p v-if="artist.label_records && artist.label_records.length" class="mt-4">
-  <strong>Sellos Discográficos:</strong>
-  <ul class="list-disc pl-5">
-    <li v-for="(label, index) in label_records" :key="index">
-      <nuxt-link :to="`/label_records/${label.id}`" class="text-blue-500 hover:underline">
-        {{ label.name }} ({{ label.location }})
-      </nuxt-link>
-    </li>
-  </ul>
-</p>
-
+              <strong>Sellos Discográficos:</strong>
+              <ul class="list-disc pl-5">
+                <li v-for="(label, index) in label_records" :key="index">
+                  <nuxt-link :to="`/label_records/${label.id}`" class="text-blue-500 hover:underline">
+                    {{ label.name }} ({{ label.location }})
+                  </nuxt-link>
+                </li>
+              </ul>
+            </p>
             <p v-else class="text-gray-600 mt-4">No hay sellos discográficos disponibles.</p>
           </div>
         </div>
@@ -66,6 +64,10 @@
           </div>
           <p v-else class="text-gray-600">No hay canciones disponibles.</p>
         </div>
+
+        <div class="mt-8">
+          <utterances-comments />
+        </div>
       </div>
       <div v-else>
         <p class="text-center text-gray-600">Artista no encontrado.</p>
@@ -81,6 +83,7 @@ import HeaderView from '@/components/global/HeaderView.vue';
 import FooterView from '@/components/global/FooterView.vue';
 import AlbumCard from '@/components/global/AlbumCard.vue';
 import SongCard from '@/components/global/SongCard.vue';
+import UtterancesComments from '@/components/global/UtterancesComments.vue';
 
 export default {
   components: {
@@ -88,11 +91,11 @@ export default {
     FooterView,
     AlbumCard,
     SongCard,
+    UtterancesComments, 
   },
   async asyncData({ $content, params }) {
     const artistId = parseInt(params.id);
 
-    // Obtener datos del artista
     const artistData = await $content('artists')
       .where({ id: artistId })
       .fetch();
@@ -103,20 +106,17 @@ export default {
 
     const artist = artistData[0];
 
-    // Obtener todos los álbumes
     const allAlbums = await $content('albums').fetch();
     const artistAlbums = allAlbums.filter((album) =>
       artist.albums.includes(album.id)
     );
 
-    // Obtener canciones de los álbumes
     let artistSongs = [];
     artistAlbums.forEach((album) => {
       artistSongs = artistSongs.concat(album.songs);
     });
     artistSongs = [...new Set(artistSongs)];
 
-    // Obtener todos los sellos discográficos
     const allRecords = await $content('label_records').fetch();
     const artistRecords = allRecords.filter((record) =>
       artist.label_records.includes(record.id)

@@ -3,6 +3,9 @@ export default {
     '@nuxt/content',
     '@nuxtjs/tailwindcss'
   ],
+  plugins: [
+    '~/plugins/vue-script2.js' 
+  ],
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content');
