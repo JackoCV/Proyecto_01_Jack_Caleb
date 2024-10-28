@@ -1,20 +1,24 @@
 <template>
-    <div>
-      <script2
-        src="https://utteranc.es/client.js"
-        repo="JackoCV/Proyecto_01_Jack_Caleb"
-        issue-term="pathname"
-        label="Tarea-2"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async
-      ></script2>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'UtterancesComments',
-  };
-  </script>
-  
+</template>
+<script>
+
+export default {
+  layout: "default",
+
+  head: {
+    script: [
+      {
+        src: 'https://utteranc.es/client.js',
+        repo: "JackoCV/Proyecto_01_Jack_Caleb",
+        'issue-term': "pathname",
+        label: "comments",
+        theme: "github-light",
+        crossorigin: "anonymous",
+        body: true,
+        async: true
+      }
+    ]
+  },
+
+};
+</script>
