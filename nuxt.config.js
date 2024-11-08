@@ -8,8 +8,7 @@ export default {
     '~/plugins/vue-script2.js' 
   ],
   snipcart: {
-    // Utilizamos una variable de entorno para manejar la clave pública de Snipcart
-    publicApiKey: process.env.SNIPCART_API_KEY || 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx',
+    publicApiKey: 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx',
   },
   generate: {
     async routes() {
@@ -83,7 +82,7 @@ export default {
           src: 'https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js',
           async: true,
           defer: true,
-          'data-api-key': process.env.SNIPCART_API_KEY || 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx', 
+          'data-api-key': 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx', 
           id: 'snipcart' 
         }
       ]
