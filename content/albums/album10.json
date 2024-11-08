@@ -4,6 +4,8 @@
     "artist": "Thelonious Monk",
     "release_year": 1963,
     "songs": ["Monk's Dream", "Body and Soul", "Bright Mississippi"],
-    "image": "/images/monks-dream.jpg"
+    "image": "/images/monks-dream.jpg",
+    "price": 36
+
   }
   

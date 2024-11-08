@@ -4,6 +4,8 @@
     "artist": "Duke Ellington",
     "release_year": 1957,
     "songs": ["Such Sweet Thunder", "Sonnet for Caesar", "Lady Mac"],
-    "image": "/images/such-sweet-thunder.jpg"
+    "image": "/images/such-sweet-thunder.jpg",
+    "price": 36
+
   }
   

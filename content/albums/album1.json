@@ -4,6 +4,7 @@
     "artist": "John Coltrane",
     "release_year": 1957,
     "songs": ["Blue Train", "Moment's Notice", "Locomotion"],
-    "image": "/images/blue-train.jpg"
+    "image": "/images/blue-train.jpg",
+    "price": 36
   }
   

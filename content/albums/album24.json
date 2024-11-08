@@ -4,5 +4,7 @@
   "artist": "Charlie Parker",
   "release_year": 1953,
   "songs": ["Embraceable You", "Now's the Time", "I Remember You"],
-  "image": "/images/genius-of-charlie-parker.jpg"
+  "image": "/images/genius-of-charlie-parker.jpg",
+  "price": 36
+
 }

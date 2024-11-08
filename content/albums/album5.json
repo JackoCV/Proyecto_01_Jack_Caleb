@@ -4,6 +4,8 @@
     "artist": "Charlie Parker",
     "release_year": 1950,
     "songs": ["Just Friends", "April in Paris", "If I Should Lose You"],
-    "image": "/images/charlie-parker-with-strings.jpg"
+    "image": "/images/charlie-parker-with-strings.jpg",
+    "price": 36
+
   }
   

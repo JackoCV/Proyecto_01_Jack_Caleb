@@ -4,6 +4,8 @@
     "artist": "Duke Ellington",
     "release_year": 1956,
     "songs": ["Diminuendo and Crescendo in Blue", "Jeep's Blues", "Skin Deep"],
-    "image": "/images/ellington-at-newport.jpg"
+    "image": "/images/ellington-at-newport.jpg",
+    "price": 36
+
   }
   

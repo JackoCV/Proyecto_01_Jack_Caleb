@@ -4,5 +4,7 @@
   "artist": "Thelonious Monk",
   "release_year": 1957,
   "songs": ["April in Paris", "I Don't Stand a Ghost of a Chance", "Functional"],
-  "image": "/images/thelonious-himself.jpg"
+  "image": "/images/thelonious-himself.jpg",
+  "price": 36
+
 }

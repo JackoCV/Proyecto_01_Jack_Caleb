@@ -4,6 +4,8 @@
     "artist": "Bill Evans",
     "release_year": 1961,
     "songs": ["Waltz for Debby", "My Foolish Heart", "Detour Ahead"],
-    "image": "/images/waltz-for-debby.jpg"
+    "image": "/images/waltz-for-debby.jpg",
+    "price": 36
+
   }
   

@@ -4,5 +4,7 @@
   "artist": "Miles Davis",
   "release_year": 1958,
   "songs": ["Dr. Jekyll", "Two Bass Hit", "Straight, No Chaser"],
-  "image": "/images/milestones.jpg"
+  "image": "/images/milestones.jpg",
+  "price": 36
+
 }

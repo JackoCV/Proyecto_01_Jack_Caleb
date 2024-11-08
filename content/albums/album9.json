@@ -4,6 +4,8 @@
     "artist": "Louis Armstrong",
     "release_year": 1951,
     "songs": ["Muskrat Ramble", "Royal Garden Blues", "Do You Know What It Means to Miss New Orleans"],
-    "image": "/images/satchmo-at-symphony-hall.jpg"
+    "image": "/images/satchmo-at-symphony-hall.jpg",
+    "price": 36
+
   }
   

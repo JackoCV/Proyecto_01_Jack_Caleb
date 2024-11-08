@@ -4,5 +4,7 @@
   "artist": "Miles Davis",
   "release_year": 1960,
   "songs": ["Concierto de Aranjuez", "Will o' the Wisp", "The Pan Piper"],
-  "image": "/images/sketches-of-spain.jpg"
+  "image": "/images/sketches-of-spain.jpg",
+  "price": 36
+
 }

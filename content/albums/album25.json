@@ -4,5 +4,7 @@
   "artist": "Bill Evans",
   "release_year": 1955,
   "songs": ["Groovin' High", "All the Things You Are", "Hot House"],
-  "image": "/images/groovin-high.jpg"
+  "image": "/images/groovin-high.jpg",
+  "price": 36
+
 }

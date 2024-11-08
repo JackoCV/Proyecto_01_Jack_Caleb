@@ -4,6 +4,8 @@
     "artist": "John Coltrane",
     "release_year": 1960,
     "songs": ["Giant Steps", "Cousin Mary", "Countdown"],
-    "image": "/images/giant-steps.jpg"
+    "image": "/images/giant-steps.jpg",
+    "price": 36
+
   }
   

@@ -4,6 +4,8 @@
     "artist": "Thelonious Monk",
     "release_year": 1957,
     "songs": ["Brilliant Corners", "Ba-Lue Bolivar Ba-Lues-Are", "Pannonica"],
-    "image": "/images/brilliant-corners.jpg"
+    "image": "/images/brilliant-corners.jpg",
+    "price": 36
+
   }
   

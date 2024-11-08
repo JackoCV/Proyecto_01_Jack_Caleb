@@ -4,5 +4,7 @@
   "artist": "John Coltrane",
   "release_year": 1961,
   "songs": ["My Favorite Things", "Summertime", "But Not for Me"],
-  "image": "/images/my-favorite-things.jpg"
+  "image": "/images/my-favorite-things.jpg",
+  "price": 36
+
 }

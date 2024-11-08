@@ -4,6 +4,8 @@
     "artist": "Bill Evans",
     "release_year": 1961,
     "songs": ["Gloria's Step", "My Man's Gone Now", "Alice in Wonderland"],
-    "image": "/images/sunday-at-village-vanguard.jpg"
+    "image": "/images/sunday-at-village-vanguard.jpg",
+    "price": 36
+
   }
   

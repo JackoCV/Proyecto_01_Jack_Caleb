@@ -4,6 +4,8 @@
     "artist": "John Coltrane",
     "release_year": 1965,
     "songs": ["Part 1: Acknowledgement", "Part 2: Resolution", "Part 3: Pursuance", "Part 4: Psalm"],
-    "image": "/images/a-love-supreme.jpg"
+    "image": "/images/a-love-supreme.jpg",
+    "price": 36
+
   }
   
