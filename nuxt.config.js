@@ -4,7 +4,7 @@ export default {
     '@nuxtjs/tailwindcss'
   ],
   plugins: [
-    '~/plugins/vue-script2.js' 
+    '~/plugins/vue-script2.js'
   ],
   generate: {
     async routes() {
@@ -14,37 +14,9 @@ export default {
       const albums = await $content('albums').fetch();
       const labels = await $content('label_records').fetch();
 
-      console.log('Artists:', artists);
-      console.log('Albums:', albums);
-      console.log('Labels:', labels);
-
-      const artistRoutes = artists.map(artist => {
-        if (!artist.id) {
-          console.warn(`Missing id for artist:`, artist);
-          return null; 
-        }
-        return `/artists/${artist.id}`;
-      }).filter(Boolean); 
-
-      const albumRoutes = albums.map(album => {
-        if (!album.id) {
-          console.warn(`Missing id for album:`, album);
-          return null; 
-        }
-        return `/albums/${album.id}`;
-      }).filter(Boolean); 
-
-      const labelRoutes = labels.map(label => {
-        if (!label.id) {
-          console.warn(`Missing id for label:`, label);
-          return null; 
-        }
-        return `/label_records/${label.id}`;
-      }).filter(Boolean); 
-
-      console.log('Artist Routes:', artistRoutes);
-      console.log('Album Routes:', albumRoutes);
-      console.log('Label Routes:', labelRoutes);
+      const artistRoutes = artists.map(artist => `/artists/${artist.id}`);
+      const albumRoutes = albums.map(album => `/albums/${album.id}`);
+      const labelRoutes = labels.map(label => `/label_records/${label.id}`);
 
       return [...artistRoutes, ...albumRoutes, ...labelRoutes];
     }
@@ -70,7 +42,7 @@ export default {
         { rel: 'icon', type: 'image/png', href: 'images/favicon.png' },
         {
           rel: 'stylesheet',
-          href: 'https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css' 
+          href: 'https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css'
         }
       ],
       script: [
@@ -78,10 +50,10 @@ export default {
           src: 'https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js',
           async: true,
           defer: true,
-          'data-api-key': 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx', 
-          id: 'snipcart' 
+          'data-api-key': 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx',
+          id: 'snipcart'
         }
       ]
     }
   }
-}
+};
