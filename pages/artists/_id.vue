@@ -41,11 +41,20 @@
           <h2 class="text-2xl font-semibold mb-4">Álbumes</h2>
           <div v-if="artistAlbums && artistAlbums.length">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              <AlbumCard
-                v-for="album in artistAlbums"
-                :key="album.id"
-                :album="album"
-              />
+              <div v-for="album in artistAlbums" :key="album.id">
+                <AlbumCard :album="album" />
+                <!-- Botón de compra para el álbum -->
+                <button
+                  class="snipcart-add-item mt-2 bg-blue-500 text-white py-2 px-4 rounded shadow"
+                  :data-item-id="album.id"
+                  :data-item-price="album.price"
+                  :data-item-description="album.description"
+                  :data-item-image="album.image"
+                  :data-item-name="album.title"
+                >
+                  Comprar Álbum
+                </button>
+              </div>
             </div>
           </div>
           <p v-else class="text-gray-600">No hay álbumes disponibles.</p>

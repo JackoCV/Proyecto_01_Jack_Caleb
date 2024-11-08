@@ -26,14 +26,21 @@
         <div class="mt-8">
           <h2 class="text-2xl font-semibold mb-4">Álbumes publicados</h2>
           <div v-if="labelAlbums && labelAlbums.length">
-            <div
-              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-            >
-              <AlbumCard
-                v-for="album in labelAlbums"
-                :key="album.id"
-                :album="album"
-              />
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              <div v-for="album in labelAlbums" :key="album.id">
+                <AlbumCard :album="album" />
+                <!-- Botón de compra para el álbum -->
+                <button
+                  class="snipcart-add-item mt-2 bg-blue-500 text-white py-2 px-4 rounded shadow"
+                  :data-item-id="album.id"
+                  :data-item-price="album.price"
+                  :data-item-description="album.description"
+                  :data-item-image="album.image"
+                  :data-item-name="album.title"
+                >
+                  Comprar Álbum
+                </button>
+              </div>
             </div>
           </div>
           <p v-else class="text-gray-600">No hay álbumes disponibles.</p>
@@ -42,9 +49,7 @@
         <div class="mt-8">
           <h2 class="text-2xl font-semibold mb-4">Artistas de la discográfica</h2>
           <div v-if="labelArtists && labelArtists.length">
-            <div
-              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-            >
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               <ArtistCard
                 v-for="artist in labelArtists"
                 :key="artist.id"

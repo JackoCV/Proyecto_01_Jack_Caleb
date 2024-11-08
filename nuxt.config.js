@@ -1,11 +1,16 @@
 export default {
   modules: [
     '@nuxt/content',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/snipcart'
   ],
   plugins: [
     '~/plugins/vue-script2.js' 
   ],
+  snipcart: {
+    // Utilizamos una variable de entorno para manejar la clave pública de Snipcart
+    publicApiKey: process.env.SNIPCART_API_KEY || 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx',
+  },
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content');
@@ -56,4 +61,32 @@ export default {
       global: true,
     },
   ],
+  app: {
+    head: {
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Meta description' }
+      ],
+      link: [
+        { rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Raleway:400,300,600' },
+        { rel: 'stylesheet', href: 'css/normalize.css' },
+        { rel: 'stylesheet', href: 'css/skeleton.css' },
+        { rel: 'icon', type: 'image/png', href: 'images/favicon.png' },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css' 
+        }
+      ],
+      script: [
+        {
+          src: 'https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js',
+          async: true,
+          defer: true,
+          'data-api-key': process.env.SNIPCART_API_KEY || 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx', 
+          id: 'snipcart' 
+        }
+      ]
+    }
+  }
 }

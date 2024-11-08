@@ -23,6 +23,19 @@
                 {{ album.artist }}
               </nuxt-link>
             </p>
+
+            <!-- Botón de compra del álbum -->
+            <button
+              class="snipcart-add-item mt-4 bg-blue-500 text-white py-2 px-4 rounded shadow"
+              :data-item-id="album.id"
+              :data-item-price="album.price"
+              :data-item-description="album.description"
+              :data-item-image="album.image"
+              :data-item-name="album.title"
+            >
+              Comprar Álbum
+            </button>
+
             <h2 class="text-2xl font-semibold mt-6 mb-4">Canciones</h2>
             <div class="space-y-4">
               <SongCard
