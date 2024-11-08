@@ -60,7 +60,6 @@
           <p v-else class="text-gray-600">No hay artistas disponibles.</p>
         </div>
 
-        <!-- Agregar comentarios de Utterances -->
         <div class="mt-8">
           <utterances-comments />
         </div>
@@ -87,7 +86,7 @@ export default {
     FooterView,
     AlbumCard,
     ArtistCard,
-    UtterancesComments // Registramos UtterancesComments
+    UtterancesComments 
   },
   async asyncData({ $content, params }) {
     const labelData = await $content('label_records')

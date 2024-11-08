@@ -1,15 +1,11 @@
 export default {
   modules: [
     '@nuxt/content',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/snipcart'
+    '@nuxtjs/tailwindcss'
   ],
   plugins: [
     '~/plugins/vue-script2.js' 
   ],
-  snipcart: {
-    publicApiKey: 'NDcyNDAzZDItMjZkZi00MWYzLWFhYTEtZGFhOTllYjgyNWMxNjM4NjY2MzI1NTMxNDE0NTIx',
-  },
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content');

@@ -24,12 +24,11 @@
               </nuxt-link>
             </p>
 
-            <!-- Botón de compra del álbum -->
+            <!-- Botón de compra sin descripción -->
             <button
               class="snipcart-add-item mt-4 bg-blue-500 text-white py-2 px-4 rounded shadow"
               :data-item-id="album.id"
               :data-item-price="album.price"
-              :data-item-description="album.description"
               :data-item-image="album.image"
               :data-item-name="album.title"
             >
